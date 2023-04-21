@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CHUDE">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_span="4"
+            android:gravity="center"
+            android:text="THÔNG TIN CHỦ ĐỀ"
+            android:background="#055108"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editMaCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Mã chủ đề: "
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <EditText
+            android:id="@+id/editTenCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Tên chủ đề: "
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bttThem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="THÊM THÔNG TIN"/>
+        <Button
+            android:id="@+id/bttCapnhat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="CẤP NHẬT THÔNG TIN"/>
+        <Button
+            android:id="@+id/bttXoa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="XÓA THÔNG TIN"/>
+        <Button
+            android:id="@+id/bttHienthiCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="HIỂN THỊ THÔNG TIN"/>
+        <ListView
+            android:id="@+id/lvCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#C4E3C6"/>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
