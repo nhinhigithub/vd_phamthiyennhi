@@ -76,7 +76,7 @@ public class CHUDE extends AppCompatActivity {
         ArrayAdapter adapter=new ArrayAdapter(this, android.R.layout.simple_list_item_1,listCD);
         lvCD.setAdapter(adapter);
     }
-
+// gji chu
     public boolean doAction(String sql) {
         try{
             //mo csdl
